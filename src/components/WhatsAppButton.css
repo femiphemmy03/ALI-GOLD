@@ -1,0 +1,26 @@
+.wa-float {
+  position: fixed;
+  bottom: 22px;
+  right: 22px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--whatsapp);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 24px -8px rgba(37, 211, 102, 0.6);
+  z-index: 200;
+  transition: transform 0.15s ease;
+}
+.wa-float:hover { transform: scale(1.06); }
+.wa-float:active { transform: scale(0.96); }
+
+@media (max-width: 640px) {
+  .wa-float {
+    bottom: 16px;
+    right: 16px;
+    width: 50px;
+    height: 50px;
+  }
+}

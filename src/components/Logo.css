@@ -1,0 +1,34 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.25rem;
+  white-space: nowrap;
+}
+
+.logo-seal {
+  position: relative;
+  display: inline-flex;
+  color: var(--ember);
+}
+.seal-ring { color: var(--ink); }
+.seal-dash { color: var(--gold); }
+.seal-text {
+  fill: var(--gold-soft);
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.logo-ali { color: var(--ink); }
+.logo-dash { color: var(--gold); }
+.logo-gold { color: var(--ember); }
+
+.logo-light .logo-ali,
+.logo-light .logo-dash {
+  color: var(--cream);
+}
+.logo-light .seal-ring { color: var(--cream); }
+.logo-light .seal-text { fill: var(--ink); }

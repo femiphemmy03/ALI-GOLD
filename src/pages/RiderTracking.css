@@ -1,0 +1,109 @@
+.rider-layout {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 24px;
+  margin-top: 28px;
+  align-items: start;
+}
+
+.map-placeholder {
+  position: relative;
+  background: var(--sand);
+  border-radius: 20px;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+.map-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 36px 36px;
+  opacity: 0.6;
+}
+.map-route {
+  position: absolute;
+  left: 18%;
+  top: 22%;
+  width: 60%;
+  height: 56%;
+  border: 2px dashed var(--ember);
+  border-radius: 0 60% 0 60%;
+  opacity: 0.6;
+}
+.map-pin {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.15));
+}
+.map-pin span {
+  font-size: 0.7rem;
+  font-weight: 700;
+  background: #fff;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-top: 2px;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.map-pin-store { top: 18%; left: 14%; }
+.map-pin-rider { top: 48%; left: 46%; }
+.map-pin-customer { bottom: 16%; right: 12%; }
+
+.rider-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.rider-status h3 {
+  margin-top: 8px;
+  font-size: 1.3rem;
+}
+
+.rider-profile {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.rider-avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--gold-soft);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+.rider-profile div strong { display: block; font-size: 0.95rem; }
+.rider-profile div span { font-size: 0.78rem; color: var(--muted); }
+
+.rider-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.rider-meta div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.88rem;
+}
+.rider-meta span { color: var(--muted); }
+
+@media (max-width: 860px) {
+  .rider-layout { grid-template-columns: 1fr; }
+}

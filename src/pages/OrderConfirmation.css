@@ -1,0 +1,49 @@
+.confirmation {
+  max-width: 540px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 64px 16px 80px;
+}
+.confirm-icon { font-size: 3rem; margin-bottom: 12px; }
+.confirmation h2 { margin-bottom: 8px; }
+.confirm-sub {
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 0 0 28px;
+}
+
+.confirm-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin-bottom: 28px;
+  text-align: left;
+}
+.confirm-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 0.92rem;
+  border-bottom: 1px solid var(--line);
+}
+.confirm-row:last-child { border-bottom: none; }
+.confirm-row span { color: var(--muted); }
+
+.confirm-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.confirm-footnote {
+  font-size: 0.85rem;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
