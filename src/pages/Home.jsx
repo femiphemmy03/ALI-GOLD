@@ -12,7 +12,7 @@ export default function Home() {
       <section className="hero">
         <div className="container hero-inner">
           <div className="hero-copy">
-            <span className="eyebrow">Lagos · Same-day delivery</span>
+            <span className="eyebrow">Owerri · Same-day delivery</span>
             <h1>
               Everyday essentials,<br />
               <span className="hero-accent">gold-standard</span> delivery.
