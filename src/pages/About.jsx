@@ -11,7 +11,7 @@ export default function About() {
       <div className="about-layout">
         <div className="about-copy">
           <p>
-            ALI-GOLD is a Lagos-based grocery and essentials delivery brand. We bring
+            ALI-GOLD is a Owerri-based grocery and essentials delivery brand. We bring
             together everyday groceries, drinks, household items, food stuffs and
             wellbeing products — the things every home needs, sourced from trusted
             brands and delivered to your door.
