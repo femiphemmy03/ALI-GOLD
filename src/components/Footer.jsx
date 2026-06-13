@@ -39,9 +39,9 @@ export default function Footer() {
         <div className="footer-col">
           <h4>Get in touch</h4>
           <ul>
-            <li>📞 0813 480 8602</li>
+            <li>📞 08089371721</li>
             <li>✉️ hello@aligold.ng</li>
-            <li>📍 Lagos, Nigeria</li>
+            <li>📍 Owerri, Imo State, Nigeria</li>
           </ul>
         </div>
       </div>
